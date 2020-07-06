@@ -6,7 +6,7 @@ import { Route, Switch, withRouter } from 'react-router-dom';
 import Inicio from './../pages/Inicio'
 import Login from './../Login'
 import Registrar from './../pages/Registrar'
-
+  
 const Main = withRouter(({ location }) => {
   return (
     <>
